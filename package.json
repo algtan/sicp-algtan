@@ -1,0 +1,31 @@
+{
+  "name": "sicp",
+  "version": "1.0.29",
+  "license": "Apache-2.0",
+  "description": "module to run programs of SICP JS in node.js",
+  "keywords": [
+    "JavaScript",
+    "textbook",
+    "Structure and Interpretation of Computer Programs",
+    "SICP"
+  ],
+  "author": {
+    "name": "Source Academy",
+    "url": "https://github.com/source-academy/"
+  },
+  "dependencies": {
+    "@types/estree": "0.0.47",
+    "acorn": "^8.0.3",
+    "acorn-loose": "^8.0.0",
+    "acorn-walk": "^8.0.0",
+    "astring": "^1.4.3",
+    "gpu.js": "^2.10.4",
+    "xmlhttprequest-ts": "^1.0.1",
+    "lodash": "^4.17.20"
+  },
+  "main": "dist/sicp",
+  "types": "dist/sicp",
+  "files": [
+    "dist"
+  ]
+}
